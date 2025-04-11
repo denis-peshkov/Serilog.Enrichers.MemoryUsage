@@ -28,12 +28,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Hello world action step
-        id: hello
-        uses: denis-peshkov/update-nuspec-action@master
-        with:
-          dir: './test'
-
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
