@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+	<metadata>
+		<id>Serilog.Enrichers.MemoryUsage</id>
+		<version>7.0.0</version>
+		<title>Serilog.Enrichers.MemoryUsage</title>
+		<authors>denis-peshkov</authors>
+		<owners>denis-peshkov</owners>
+		<license type="expression">MIT</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/denis-peshkov/Serilog.Enrichers.MemoryUsage</projectUrl>
+		<repository type="git" url="https://github.com/denis-peshkov/Serilog.Enrichers.MemoryUsage" />
+		<readme>docs\README.md</readme>
+		<icon>icon.png</icon>
+		<releaseNotes>
+		</releaseNotes>
+		<description>Enriches Serilog events with information of the memory usage.</description>
+		<tags>serilog enrichers enricher memory usage</tags>
+		<copyright>Copyright 2025</copyright>
+		<dependencies>
+			<group targetFramework="netstandard2.1">
+				<dependency id="Microsoft.AspNetCore.Http" version="2.2.2" />
+				<dependency id="Serilog" version="2.9.0" />
+			</group>
+			<group targetFramework=".NET6.0">
+				<dependency id="Serilog" version="2.9.0" />
+			</group>
+			<group targetFramework=".NET7.0">
+				<dependency id="Serilog" version="2.9.0" />
+			</group>
+			<group targetFramework=".NET8.0">
+				<dependency id="Serilog" version="2.9.0" />
+			</group>
+		</dependencies>
+		<frameworkReferences>
+			<group targetFramework=".NET6.0">
+				<frameworkReference name="Microsoft.AspNetCore.App" />
+			</group>
+			<group targetFramework=".NET7.0">
+				<frameworkReference name="Microsoft.AspNetCore.App" />
+			</group>
+			<group targetFramework=".NET8.0">
+				<frameworkReference name="Microsoft.AspNetCore.App" />
+			</group>
+		</frameworkReferences>
+	</metadata>
+	<files>
+		<file src="src\Serilog.Enrichers.MemoryUsage\bin\Release\netstandard2.1\Serilog.Enrichers.MemoryUsage.*" target="lib/netstandard2.1" />
+		<file src="src\Serilog.Enrichers.MemoryUsage\bin\Release\net6.0\Serilog.Enrichers.MemoryUsage.*" target="lib/net6.0" />
+		<file src="src\Serilog.Enrichers.MemoryUsage\bin\Release\net7.0\Serilog.Enrichers.MemoryUsage.*" target="lib/net7.0" />
+		<file src="src\Serilog.Enrichers.MemoryUsage\bin\Release\net8.0\Serilog.Enrichers.MemoryUsage.*" target="lib/net8.0" />
+		<file src="README.md" target="docs\" />
+		<file src="icon.png" target="" />
+	</files>
+</package>
