@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
 		<id>Serilog.Enrichers.MemoryUsage</id>
-		<version>7.0.0</version>
+		<version>1.0.0</version>
 		<title>Serilog.Enrichers.MemoryUsage</title>
 		<authors>denis-peshkov</authors>
 		<owners>denis-peshkov</owners>
